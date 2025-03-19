@@ -6,7 +6,7 @@ const connectDB =()=>{
         mongoose.connect(process.env.URL)
         console.log("MongoDb is connected")
     }catch(error){
-        console.error(error.message)
+        console.error(error.message);
     }
 }
 
